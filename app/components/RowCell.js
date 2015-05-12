@@ -20,4 +20,4 @@ class RowCell extends React.Component {
     }
 };
 
-module.exports = RowCell;
+export default RowCell;

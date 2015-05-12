@@ -79,4 +79,4 @@ class Sheet extends React.Component {
     }
 };
 
-module.exports = Sheet;
+export default Sheet;

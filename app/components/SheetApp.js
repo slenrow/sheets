@@ -50,4 +50,4 @@ class SheetApp extends React.Component {
     }
 };
 
-module.exports = SheetApp;
+export default SheetApp;

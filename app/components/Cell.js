@@ -114,4 +114,4 @@ class SheetCell extends React.Component {
     }
 };
 
-module.exports = SheetCell;
+export default SheetCell;
