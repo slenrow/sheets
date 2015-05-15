@@ -49,5 +49,28 @@
     "transform": [
       "reactify"
     ]
+  },
+  "eslintConfig": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"parser": "babel-eslint",
+		"env": {
+			"browser": true,
+			"node": true,
+			"es6": true
+		},
+		"rules": {
+			"strict": 0,
+			"no-unused-vars": 1,
+			"new-cap": 0,
+			"no-shadow": 0,
+			"no-mixed-spaces-and-tabs": 1,
+			"no-underscore-dangle": 0,
+			"quotes": [
+				2,
+				"single"
+			]
+		}
   }
 }
