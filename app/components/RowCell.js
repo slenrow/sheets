@@ -16,6 +16,6 @@ class RowCell extends React.Component {
             <td className='row-cell'>{this.props.value}</td>
         );
     }
-};
+}
 
 export default RowCell;

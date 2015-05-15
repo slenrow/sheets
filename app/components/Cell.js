@@ -12,7 +12,7 @@ class SheetCell extends React.Component {
         this.state = {
             lastClickDate: 0,
             value: props.cell.get('value')
-        }
+        };
     }
 
     componentWillReceiveProps(nextProps) {
@@ -110,6 +110,6 @@ class SheetCell extends React.Component {
 
         this.props.cell.update('isEditing', () => false);
     }
-};
+}
 
 export default SheetCell;

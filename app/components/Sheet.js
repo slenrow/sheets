@@ -75,6 +75,6 @@ class Sheet extends React.Component {
             return sheetData;
         }.bind(this));
     }
-};
+}
 
 export default Sheet;

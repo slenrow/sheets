@@ -17,7 +17,7 @@ class SheetApp extends React.Component {
 
     componentWillMount() {
         this.setState({
-            history: new History(this.props.sheetData, this._cursorChange.bind(this)),
+            history: new History(this.props.sheetData, this._cursorChange.bind(this))
         });
     }
 
@@ -46,6 +46,6 @@ class SheetApp extends React.Component {
             </div>
         );
     }
-};
+}
 
 export default SheetApp;

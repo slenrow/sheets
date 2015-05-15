@@ -47,6 +47,6 @@ class Toolbar extends React.Component {
             return sheetData;
         });
     }
-};
+}
 
 export default Toolbar;
