@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react';
 import Immutable from 'immutable';
 import Jexl from 'Jexl';
@@ -12,7 +10,7 @@ class SheetCell extends React.Component {
         super(props);
 
         this.state = {
-            astClickDate: 0,
+            lastClickDate: 0,
             value: props.cell.get('value')
         }
     }

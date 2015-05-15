@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react';
 import Immutable from 'immutable';
 import History from 'immutable-history';
